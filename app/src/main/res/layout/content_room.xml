@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.hooke.citychat.MainActivity"
+    tools:context="com.hooke.citychat.ChoiceRoom"
     tools:showIn="@layout/app_bar_main">
 
     <android.support.v7.widget.RecyclerView
@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:id="@+id/rv_list_city">
+        android:id="@+id/rv_list_room">
     </android.support.v7.widget.RecyclerView>
 
 </android.support.constraint.ConstraintLayout>
