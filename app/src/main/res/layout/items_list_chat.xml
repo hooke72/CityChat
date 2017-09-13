@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_card_view"
+    style="@style/Widget.MaterialSheetFab.Note"
+    android:layout_width="match_parent"
+    android:layout_margin="0dp"
+    card_view:cardBackgroundColor="@color/chat_background"
+    card_view:cardElevation="0dp"
+    card_view:contentPadding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/chat_spacer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="left" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/chat_text_card"
+                style="@style/Widget.MaterialSheetFab.Note"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                card_view:cardBackgroundColor="#e3f2fd"
+                card_view:cardCornerRadius="12dp"
+                card_view:contentPadding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:id="@+id/author"
+                            style="@style/TextAppearance.MaterialSheetFab.Note.Name"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="left" />
+
+                        <TextView
+                            android:id="@+id/time_date"
+                            style="@style/TextAppearance.MaterialSheetFab.Note.Time"
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="right" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/chat_text"
+                        style="@style/TextAppearance.MaterialSheetFab.Text"
+                        android:layout_width="match_parent" />
+
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#e3f2fd" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

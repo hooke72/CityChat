@@ -3,41 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <color name="theme_primary">#00BCD4</color>
-    <color name="theme_primary_dark">#0097A7</color>
-    <color name="theme_primary_dark2">#006064</color>
-    <color name="theme_accent">#FFEB3B</color>
-    <color name="background_message">#4fc3f7</color>
-
-    <color name="background_card">#fff</color>
-    <color name="background_snackbar">#323232</color>
-
-    <color name="text_black_87">#de000000</color>
-    <color name="text_white_87">#deFFFFFF</color>
-    <color name="textPrimary">#212121</color>
-
-    <array name="note_neutral_colors">
-        <item>#9E9E9E</item>
-        <item>#455A64</item>
-        <item>#607D8B</item>
-    </array>
-
-    <array name="note_accent_colors">
-        <item>#039BE5</item>
-        <item>#3D51B3</item>
-        <item>#689f38</item>
-        <item>#FD7044</item>
-    </array>
-
-    <color name="mesgCat1">#fafafa</color>
-    <color name="mesgCat2">#e0e0e0</color>
-    <color name="mesgCat3">#ece7e7</color>
-    <color name="mesgCat4">#d7dee2</color>
-    <color name="mesgCat5">#e5eadf</color>
-    <color name="mesgCat99">#d0dfd1</color>
-    <color name="mesgCatDef">#d0dbe1</color>
-
     <color name="grey_100">#F5F5F5</color>
     <color name="grey_300">#E0E0E0</color>
+    <color name="background_card">#fff</color>
+    <color name="authot_is_me">#01579b</color>
+    <color name="text_black_87">#de000000</color>
+    <color name="theme_primary">#00BCD4</color>
+    <color name="card_clear">#e3f2fd</color>
+    <color name="card_crypted">#ffe57f</color>
+    <color name="chat_background">#90a4ae</color>
+    <color name="selectchat_background">#eceff1</color>
 </resources>

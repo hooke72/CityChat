@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -14,6 +13,10 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
@@ -37,6 +40,18 @@
 
     <style name="TextAppearance.MaterialSheetFab.Note.Title" parent="TextAppearance.MaterialSheetFab.Note">
         <item name="android:textSize">@dimen/note_title_textsize</item>
+    </style>
+
+    <style name="TextAppearance.MaterialSheetFab.Text" parent="TextAppearance.MaterialSheetFab.Note">
+        <item name="android:textSize">@dimen/note_textsize</item>
+    </style>
+
+    <style name="TextAppearance.MaterialSheetFab.Note.Name" parent="TextAppearance.MaterialSheetFab.Note">
+        <item name="android:textSize">@dimen/note_name_textsize</item>
+    </style>
+
+    <style name="TextAppearance.MaterialSheetFab.Note.Time" parent="TextAppearance.MaterialSheetFab.Note">
+        <item name="android:textSize">@dimen/note_time_textsize</item>
     </style>
 
     <style name="ActionBarThemeOverlay" parent="">

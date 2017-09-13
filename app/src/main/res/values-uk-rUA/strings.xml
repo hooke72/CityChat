@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CityChat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_activity">Вибрані кімнати</string>
+    <string name="please_login">Будь-ласка, залогуйтесь для отримання усіх функцій</string>
+    <string name="please_login_yes">Так, уперед</string>
+    <string name="please_login_no">Ні, можливо іншим разом</string>
+    <string name="confirm_select_chat">Підтвердіть вибір кімнати:</string>
+    <string name="confirm_select_chat_yes">Так, цю</string>
+    <string name="confirm_select_chat_no">Ні, може іншу</string>
+    <string name="say_chat">Поділіться своїми думками в кімнаті:</string>
+    <string name="say_chat_yes">Відправити</string>
+    <string name="say_chat_no">Ні</string>
+    <string name="add_room">Вкажіть ім\'я для нової кімнати:</string>
+    <string name="add_room_yes">Створити кімнату</string>
+    <string name="add_room_no">Ні</string>
+    <string name="add_city">Бажаєте додати це місто:</string>
+    <string name="add_city_yes">Так</string>
+    <string name="add_city_no">Ні</string>
+    <string name="no_user">Дехто</string>
+    <string name="no_login">Не авторизований</string>
+    <string name="google_name">Google Name: %s</string>
+    <string name="google_user">Google User: %s</string>
+    <string name="signed_out">Розлоговона</string>
+    <string name="loading">Завантадення…</string>
+    <string name="sign_out">Розлогуватись</string>
+    <string name="disconnect">Від\'єднатись</string>
+    <string name="auth">Авторизація</string>
+    <string name="start_main">Запустити CityChat</string>
+    <string name="google_title_text">Залогуватись з акаунтом Google</string>
+    <string name="desc_firebase_lockup">Firebase логотим та ім\'я</string>
+    <string name="title_activity_google_login">Логін</string>
+    <string name="title_activity_chat_view">Переглят чат кімнати</string>
+    <string name="title_activity_select_chat">Вибір чат кімнати</string>
+    <string name="choice_city">Вибір міста</string>
+    <string name="choice_room">Виберіть кімнату з міста:</string>
+    <string name="chat_view">Кімната - </string>
+    <string name="i_need_permision">Якщо ви відмовляєте в дозволі, то нажаль не зможете скористатись функціями\\n\\nБудьте розважніше, увімкніть дозвіл в [Setting] > [Permission]></string>
+    <string name="no_last_location">Місцезнаходження не визначено. Спробуйте ще раз пізніше!</string>
+    <string name="database_error">Помилки в базі даних нам дещо перешкождають</string>
+    <string name="already_have_city">Вже маємо таке місто:</string>
+    <string name="permission_deny">Немає дозволів\n</string>
+    <string name="connection_failed">Помилка в приєднанні до сервісу</string>
+    <string name="authentication_failed">Помилка аутентифікації</string>
+    <string name="google_play_service_error">Помилка в Google Play Services</string>
+    <string name="post_just_now">Щойно</string>
+    <string name="seconds_ago"> сек. тому</string>
+    <string name="less_day_ago">від:</string>
+    <string name="swipe_unsubscribe">Відписано кімнату</string>
+    <string name="search_title">Пошук</string>
+    <string name="search_hint">Пошук Hint</string>
+    <string name="google_title_text_loged">Ви успішно залогувались</string>
+    <string name="last_post_at">останній запис від:</string>
+    <string name="number_of_chats">Кімнат:</string>
+    <string name="set_password">Введіть кодове слово</string>
+    <string name="set_password_yes">Використовувати!</string>
+    <string name="set_password_no">Ні</string>
+    <string name="error_crypto">Помилки в шифруванні</string>
+    <string name="share_app">Спробуй CityChat http://www.ibm.com/</string>
+    <string name="share_room">\\n У цій кімнаті є цікавинки для вас:</string>
+    <string name="copy_right">CityChat is published under GPL3 \n Developed by Andriy Hooke %1$d</string>
+    <string name="title_about_page">Це безкоштовна програма з відкритим первісним кодом. Можете вільно використувувати первісні коди для гарних справ. \n
+    Особлива подяка для:\n
+    \"Glide\" by Sam Judd - @sjudd on GitHub\n
+    \"TedPermission\" - Copyright 2016 Ted Park\n
+    \"MaterialSearchView\" - Copyright 2015 Miguel Catalan Bañuls \n
+    \"Android About Page\" Copyright 2016 Mehdi Sakout\n
+    icons8.com, for a icons\n
+    Firebase and Android by Google inc.\n
+    </string>
+    <string name="description_about_page">Використовуйте CityChat задля безкоштовного спілкування між різними людьми. Просто оберіть місто, кімнату та спілкуєтесь. Якщо вашого місте досі нема в списку, ви можете його добавити, використовуючи дані про свое місцезнаходження. Також, звісно, ви можете добавити і кімнату. </string>
+    <string name="contacts_about_page">Ви можете контактувати з нами, користуючись:</string>
+    <string name="email_about_page">citychat@zoho.eu</string>
+    <string name="web_about_page">https://play.google.com/store/apps/details?id=com.hooke.citychat</string>
+    <string name="playstore_about_page">com.hooke.citychat</string>
+    <string name="github_about_page">hooke72/citychat</string>
+    <string name="title_activity_settings_page">Налаштування</string>
+    <string name="message_is_crypted">Повідомлення зашифровано!</string>
+</resources>
